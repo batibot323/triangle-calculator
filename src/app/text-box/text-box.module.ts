@@ -8,6 +8,9 @@ import { TextBoxComponent } from './text-box.component';
   declarations: [TextBoxComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    TextBoxComponent
   ]
 })
 export class TextBoxModule { }
