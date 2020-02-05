@@ -1,1 +1,13 @@
-<p>text-box works!</p>
+<div>
+    Point 1 X: <input #p1x />
+</div>
+<div>
+    Point 1 Y: <input #p1y />
+</div>
+<div>
+    Point 2 X: <input #p2x />
+</div>
+<div>
+    Point 2 Y: <input #p2y />
+</div>
+<div><button (click)='passPoints(p1x.value, p1y.value, p2x.value, p2y.value)'>Pass Points</button></div>
