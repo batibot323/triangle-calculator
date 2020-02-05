@@ -10,4 +10,14 @@
 <div>
     Point 2 Y: <input #p2y />
 </div>
-<div><button (click)='passPoints(p1x.value, p1y.value, p2x.value, p2y.value)'>Pass Points</button></div>
+<div>
+    Point 3 X: <input #p3x />
+</div>
+<div>
+    Point 3 Y: <input #p3y />
+</div>
+<div>
+    <button (click)='passPoints(p1x.value, p1y.value, p2x.value, p2y.value, p3x.value, p3y.value)'>
+        Pass Points
+    </button>
+</div>
